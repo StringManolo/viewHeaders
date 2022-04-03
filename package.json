@@ -6,15 +6,15 @@
   "scripts": {
     "start": "./node_modules/.bin/netlify-lambda serve dist",
     "build": "tsc && ./node_modules/.bin/netlify-lambda build dist",
-    "push": "git add --all; git commit -m \"$1\"; git push",
+    "push": "git add --all; git commit -m \"$msg\"; git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StringManolo/viewHeaders.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "StringManolo",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/StringManolo/viewHeaders/issues"
   },
