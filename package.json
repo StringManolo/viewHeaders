@@ -6,6 +6,7 @@
   "scripts": {
     "start": "./node_modules/.bin/netlify-lambda serve dist",
     "build": "tsc && ./node_modules/.bin/netlify-lambda build dist",
+    "push": "git add --all; git commit -m \"$1\"; git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
